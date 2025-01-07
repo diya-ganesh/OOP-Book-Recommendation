@@ -1,0 +1,34 @@
+(ds) Diya@MacBook-Pro ds3500 % python -m pytest -v --cov --cov-report term-missing
+============================================================================= test session starts ==============================================================================
+platform darwin -- Python 3.12.4, pytest-8.3.3, pluggy-1.5.0 -- /opt/anaconda3/envs/ds/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/Diya/Downloads/ds3500
+plugins: cov-5.0.0
+collected 15 items
+
+hw4/test_propertygraph.py::test_constructor PASSED                                                                                                                       [  6%]
+hw4/test_propertygraph.py::test_node_getitem PASSED                                                                                                                      [ 13%]
+hw4/test_propertygraph.py::test_node_setitem PASSED                                                                                                                      [ 20%]
+hw4/test_propertygraph.py::test_node_equality PASSED                                                                                                                     [ 26%]
+hw4/test_propertygraph.py::test_node_hash PASSED                                                                                                                         [ 33%]
+hw4/test_propertygraph.py::test_node_repr PASSED                                                                                                                         [ 40%]
+hw4/test_propertygraph.py::test_relationship_getitem PASSED                                                                                                              [ 46%]
+hw4/test_propertygraph.py::test_relationship_setitem PASSED                                                                                                              [ 53%]
+hw4/test_propertygraph.py::test_relationship_repr PASSED                                                                                                                 [ 60%]
+hw4/test_propertygraph.py::test_add_node PASSED                                                                                                                          [ 66%]
+hw4/test_propertygraph.py::test_add_relationship PASSED                                                                                                                  [ 73%]
+hw4/test_propertygraph.py::test_get_nodes PASSED                                                                                                                         [ 80%]
+hw4/test_propertygraph.py::test_adjacent PASSED                                                                                                                          [ 86%]
+hw4/test_propertygraph.py::test_subgraph PASSED                                                                                                                          [ 93%]
+hw4/test_propertygraph.py::test_property_graph_repr PASSED                                                                                                               [100%]
+
+---------- coverage: platform darwin, python 3.12.4-final-0 ----------
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+hw4/propertygraph.py           78      0   100%
+hw4/test_propertygraph.py     114      0   100%
+---------------------------------------------------------
+TOTAL                         192      0   100%
+
+
+============================================================================== 15 passed in 0.06s ==============================================================================
